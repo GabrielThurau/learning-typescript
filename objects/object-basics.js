@@ -1,6 +1,8 @@
 // function printName(person: { first: string, last: string }) {
 //     console.log(`${person.first} ${person.last}`)
 // }
+// ? in front of z makes it an optional property
+var myPoint = { x: 34, y: 100 };
 function printName(person) {
     return { first: person.first, last: person.last, age: person.age };
 }

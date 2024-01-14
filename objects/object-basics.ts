@@ -10,11 +10,13 @@
 
 type Point = {
     x: number,
-    y: number,
+    readonly y: number,
     z?: number
 }
 
 // ? in front of z makes it an optional property
+
+const myPoint: Point = { x: 34, y: 100 };
 
 type Person = {
     first: string,
