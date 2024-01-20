@@ -39,3 +39,6 @@ const shoes: Product2 = {
 }
 
 console.log(shoes.applyDiscount(0.4))
+
+// types versus interfaces
+
